@@ -1,0 +1,38 @@
+.form {
+  height: 5rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1.25rem;
+}
+
+.form input {
+  height: 2rem;
+  width: 18rem;
+  font-family: sans-serif;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.form button {
+  margin: 1rem 0;
+  height: 2.25rem;
+  width: 18rem;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  background: white;
+  border: 2px solid black;
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form button:hover {
+  background: black;
+  color: white;
+}
