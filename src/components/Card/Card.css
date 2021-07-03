@@ -1,0 +1,35 @@
+.github-profile {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 8rem;
+  padding: 0 2.5rem;
+  margin: 1.5rem;
+}
+
+.github-img {
+  height: 5rem;
+  width: 5rem;
+  border: 1px solid #2c2c2c;
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+
+.info {
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: sans-serif;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.company {
+  font-size: 1.25rem;
+}
