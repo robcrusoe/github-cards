@@ -13,10 +13,16 @@ const DUMMY_PROFILES = [
 const App = (props) => {
   const [profiles, setProfiles] = useState(DUMMY_PROFILES);
 
+  const addNewProfile = (profile) => {
+    setProfiles((prevState) => {
+      return [...profiles, profile];
+    });
+  };
+
   return (
     <div className="App">
       <h1>{props.title}</h1>
-      <Form />
+      <Form addProfile={addNewProfile} />
       <List profiles={profiles} />
     </div>
   );
